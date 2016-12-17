@@ -39,6 +39,9 @@ alterar tamanho da coluna
  *
 listar os campos da tabela
  *select * from nome_da_tabela;
+ *
+atualizar campos da tabela
+ *update nome_da_tabela set campo1='valor_do_campo' where chave=valor_da_chave;
 */
 
 ?>
