@@ -1,0 +1,44 @@
+<?php
+
+/*
+mostrar os bancos de dados existentes
+ *show databases;
+ *
+criar banco de dados
+ *create database nome_do_banco;
+ *
+informar ao banco qual a base você utilizará
+ *use nome_do_banco;
+ *
+criar um usuário com todos os privilégios para utilizar o banco de dados nome_do_banco
+ *grant all privileges on php_mysql.* to 'devel'@'%' identified by 'alunoevol' with grant option;
+ *
+criar tabelas
+ *create table calculadora(
+ *id int not null primary key auto_increment,
+ *numero1 int not null,
+ *numero2 int not null,
+ *operacao varchar(10) not null,
+ *resultado int not null
+ *);
+ *
+mostrar tabelas
+ *show tables;
+ *
+mostrar estrutura da tabela
+ *desc nome_da_tabela;
+ *
+mostra o comando que criou a tabela
+ *show create table nome_da_tabela;
+ *
+inserir dados na tabela
+ *insert into nome_da_tabela(campo1,campo2,campo3...) values (valor1,valor2,valor3...);
+ *
+alterar tamanho da coluna
+ *alter table nome_da_tabela modify column nome_do_campo varchar(11) not null;
+ *
+listar os campos da tabela
+ *select * from nome_da_tabela;
+*/
+
+?>
